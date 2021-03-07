@@ -1,5 +1,3 @@
-# personal-website
-## Feature A
+# jörgs personal website
 
-Feature A completed
-Test123
+A website about myself.# personal-website
