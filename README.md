@@ -1,4 +1,3 @@
-# personal-website
-## Feature A
+# jörgs personal website
 
-Feature A completed
+A website about myself.# personal-website

@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+    hyphens: auto; 
+	text-align: justify
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    line-height: 1.5;
+}
+.nav-element {
+    display: inline;
+    color: rgb(46, 28, 0);
+    margin: 10px;
+    padding: 5px;
+    border: solid 3px;
+    border-radius: 7px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.img-prfil-frame {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+.img-avatar {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.thatsme {
+    text-align: center;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+.layout-grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px auto auto auto auto auto auto 80px;
+    grid-gap: 1rem;
+  }
+  .layout-flex {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .grid-header {
+    background-image: url("images/photo-1531824475211-72594993ce2a.jpeg");
+    color: rgb(46, 28, 0);
+    grid-column: 1 / 3;
+    grid-row: 1 / 1;
+  }
+  
+  .grid-ava {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  
+  }
+
+  .grid-hobbys {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .grid-contact {
+    background-color: #f5efe4;
+    padding: 2px;
+    text-align: center;
+    grid-row: 4 / 5;
+    grid-column: 1 / 3;
+  }
+
+  .flex-link {
+    text-align: center;
+    grid-row: 5 / 6;
+    grid-column: 1 / 3;
+  }
+
+  .grid-am {
+    grid-row: 6 / 8;
+    grid-column: 1 / 2;
+  }
+
+  .grid-cv {
+    grid-row: 6 / 7;
+    grid-column: 2 / 3;
+  }
+
+  .grid-footer {
+      text-align: center;
+      background-image: url("images/photo-1546484396-fb3fc6f95f98.jpeg");
+      color: white;
+    grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 8;
+  grid-row-end: 8;
+  }
+
+  .box {
+    height: 50%;
+    width: 100%;
+    background-color: aqua;
+  }
+
